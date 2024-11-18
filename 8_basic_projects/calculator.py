@@ -36,3 +36,14 @@ def choixdoperation(o, a, b):
         return
     else :
         print("opperation introuvable")
+
+print("--- Calculatrice ---")
+print("chouisisser une opperation : ")
+print(" 1 ) Addition \n 2 ) Soustraction \n 3 ) Multiplication \n 4 ) Division \n 5 ) Quitter")
+print("choisisser l'opperation : ")
+o = int(input())
+print("opperateur 1 : ")
+a = int(input())
+print("opperateur 2 : ")
+b = int(input())
+choixdoperation(o ,a, b)
